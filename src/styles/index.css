@@ -1,0 +1,29 @@
+@import "normalize.css";
+
+* {
+  /* box sizing */
+  box-sizing: border-box;
+  /* no default margins and paddings */
+  margin: 0;
+  padding: 0;
+}
+/* default list style with dots on left */
+ul {
+  list-style: none;
+}
+/* default links decorations */
+a {
+  text-decoration: none;
+}
+
+/* full size of elements below */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* default background color */
+body {
+  background-color: #212121;
+}
